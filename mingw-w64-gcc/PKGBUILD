@@ -148,7 +148,7 @@ build() {
 
   case "${CARCH}" in
     i686)
-      local _conf="--disable-sjlj-exceptions --with-dwarf2"
+      local _conf="--enable-sjlj-exceptions --without-dwarf2"
       LDFLAGS+=" -Wl,--large-address-aware"
       local _arch=i686
     ;;
