@@ -3,7 +3,7 @@ clone_folder: C:\M
 environment:
     PATH: C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Program Files\Git\cmd
     DEPLOY_PROVIDER: bintray
-    BINTRAY_ACCOUNT: alexpux
+    BINTRAY_ACCOUNT: tomay3000
     BINTRAY_REPOSITORY: msys2
     PACMAN_REPOSITORY_NAME: ci.mingw
     BUILD_URL: https://ci.appveyor.com/project/$(APPVEYOR_ACCOUNT_NAME)/$(APPVEYOR_PROJECT_NAME)/build/$(APPVEYOR_BUILD_VERSION)
@@ -34,4 +34,4 @@ deploy:
       publish: true
       override: true
       api_key:
-          secure: B2XBLbsX8EQOpWyyaHskipMoF2+Tbt6hc/afbVm82f01CBKruspjwhee4K4C7/xf
+          secure: 8RSBavviByB54PR/j0f5IQ==
